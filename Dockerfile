@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Expose port for the frontend server
-EXPOSE 5173
+EXPOSE 5174
 
 # Run vite dev server (use 'npm run build' for production)
 CMD ["npm", "run", "dev"]
