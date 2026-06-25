@@ -6,6 +6,11 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   server: {
+    allowedHosts: true,
+    watch: {
+      usePolling: true,
+    },
+    host: "0.0.0.0",
     port: 5174,
   },
   plugins: [react(), tailwindcss()],
