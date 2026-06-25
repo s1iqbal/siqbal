@@ -1,0 +1,16 @@
+services:
+  siqbal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    container_name: siqbal
+    develop:
+      watch:
+        - action: sync+restart
+          path: ./src
+          target: /app/src
+          ignore:
+            - node_modules
+    ports:
+      - "5174:5173"
