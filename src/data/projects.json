@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "E-Commerce Dashboard",
+      "description": "A comprehensive admin dashboard with analytics, sales tracking, and user management. Built with Next.js, Tailwind CSS, and MongoDB.",
+      "tags": ["Next.js", "Tailwind", "MongoDB", "Prisma"],
+      "stars": 1250,
+      "featured": true,
+      "githubUrl": "https://github.com/yourusername/e-commerce-dashboard",
+      "demoUrl": "https://dashboard.yourapp.com"
+    },
+    {
+      "id": 2,
+      "name": "Portfolio Generator",
+      "description": "AI-powered portfolio website generator that creates beautiful personal sites from simple templates and content.",
+      "tags": ["React", "TypeScript", "Vercel"],
+      "stars": 890,
+      "featured": true,
+      "githubUrl": "https://github.com/yourusername/portfolio-generator",
+      "demoUrl": "https://portfolio.yourapp.com"
+    },
+    {
+      "id": 3,
+      "name": "Task Management App",
+      "description": "Real-time collaborative task manager with drag-and-drop kanban boards and team collaboration features.",
+      "tags": ["Next.js", "Supabase", "Socket.io"],
+      "stars": 567,
+      "featured": false,
+      "githubUrl": "https://github.com/yourusername/task-management",
+      "demoUrl": "https://tasks.yourapp.com"
+    },
+    {
+      "id": 4,
+      "name": "Weather Dashboard",
+      "description": "Beautiful weather app with forecasts, severe weather alerts, and personalized location recommendations.",
+      "tags": ["React", "OpenWeather API", "Vercel"],
+      "stars": 723,
+      "featured": false,
+      "githubUrl": "https://github.com/yourusername/weather-dashboard",
+      "demoUrl": "https://weather.yourapp.com"
+    },
+    {
+      "id": 5,
+      "name": "Code Snippet Manager",
+      "description": "Organize and share code snippets with syntax highlighting, tags, and collaborative features.",
+      "tags": ["Next.js", "PostgreSQL", "Prisma"],
+      "stars": 445,
+      "featured": false,
+      "githubUrl": "https://github.com/yourusername/snippet-manager",
+      "demoUrl": "https://snippets.yourapp.com"
+    },
+    {
+      "id": 6,
+      "name": "Social Media Analytics",
+      "description": "Track social media metrics across platforms with beautiful visualizations and reporting.",
+      "tags": ["React", "GraphQL", "Apollo"],
+      "stars": 834,
+      "featured": false,
+      "githubUrl": "https://github.com/yourusername/social-analytics",
+      "demoUrl": "https://analytics.yourapp.com"
+    }
+  ]
+}
